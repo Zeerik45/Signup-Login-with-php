@@ -1,0 +1,97 @@
+* {
+    font-family: 'Fredoka One', cursive;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#dash {
+    background: #4D96E4;
+    height: 100vh;
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+a {
+    align-items: center;
+    padding-top: 30px;
+}
+
+body {
+    background: #4D96E4;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 380px;
+    border: 2px solid grey;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+}
+
+input {
+    display: block;
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+button {
+    float: right;
+    background: #4D96E4;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+label {
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.success {
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.ca {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #444;
+}
+
+.ca:hover {
+    text-decoration: underline;
+}
